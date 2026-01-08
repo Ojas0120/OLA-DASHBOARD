@@ -1,6 +1,5 @@
-Absolutely 👍
-Here’s a **clean, attractive, submission-ready `README.md`** with emojis, sections, and a professional vibe.
-You can **copy–paste this directly** into a `README.md` file.
+This is the working link 
+https://ola-dashboard-ojas.streamlit.app/
 
 ---
 
@@ -168,8 +167,3 @@ The dashboard will open automatically in your browser 🌐
 
 ## ⭐ Final Note
 
-If you found this project useful, feel free to ⭐ star it or extend it further.
-Happy analyzing! 📈✨
-
-
----
