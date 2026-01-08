@@ -18,7 +18,8 @@ DATA_PATH = os.path.join(PROJECT_ROOT, "data", "OLA_DataSet.xlsx")
 st.write("📂 Loading file:", DATA_PATH)
 
 # Read Excel (simple, single call – the one that worked)
-df = pd.read_excel(DATA_PATH)
+df = pd.read_excel(DATA_PATH, engine="openpyxl")
+
 
 # ---------------- BASIC CLEANING ----------------
 df.columns = df.columns.str.strip()
@@ -127,3 +128,4 @@ elif page == "Ratings":
 # ---------------- RAW DATA ----------------
 with st.expander("📄 View Raw Data"):
     st.dataframe(df)
+
